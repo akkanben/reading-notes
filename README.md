@@ -19,136 +19,41 @@ I tested into Code 201 but below is a list of topics covered from Code 102:
 
 ## Code 201 Reading Notes
 
-| Week One                         | Week Two                         | Week Three                       | Week Four                     |
-| -------------------------------- | -------------------------------- | -------------------------------- | ----------------------------- |
-| [09/13/21](#september-13th-2021) | [09/20/21](#september-20th-2021) | [09/27/21](#september-27th-2021) | [10/04/21](#october-4th-2021) |
-| [09/14/21](#september-14th-2021) | [09/21/21](#september-21st-2021) | [09/28/21](#september-28th-2021) | [10/05/21](#october-5th-2021) |
-| [09/15/21](#september-15th-2021) | [09/22/21](#september-22nd-2021) | [09/29/21](#september-29th-2021) | [10/06/21](#october-6th-2021) |
-| [09/16/21](#september-16th-2021) | [09/23/21](#september-23rd-2021) | [09/30/21](#september-30th-2021) | [10/07/21](#october-7th-2021) |
-| [09/17/21](#september-17th-2021) | [09/24/21](#september-24th-2021) | [10/01/21](#october-1st-2021)    | [10/08/21](#october-8th-2021) |
-| [09/18/21](#september-18th-2021) | [09/25/21](#september-25th-2021) | [10/02/21](#october-2nd-2021)    |                               |
-| [09/19/21](#september-19th-2021) | [09/26/21](#september-26th-2021) | [10/03/21](#october-3rd-2021)    |                               |
+| Week One                | Week Two                | Week Three               |
+| ----------------------- | ----------------------- | ------------------------ |
+| [09/13/21](#reading-01) | [09/20/21](#reading-06) | [09/27/21](#reading-11)  |
+| [09/14/21](#reading-02) | [09/21/21](#reading-07) | [09/28/21](#reading-12)  |
+| [09/15/21](#reading-03) | [09/22/21](#reading-08) | [09/29/21](#reading-13)  |
+| [09/16/21](#reading-04) | [09/23/21](#reading-09) | [09/30/21](#reading-14a) |
+| [09/17/21](#reading-05) | [09/24/21](#reading-10) | [10/01/21](#reading-14b) |
 
-### September 13th, 2021
-
-#### Pages _ to _
-
-### September 14th, 2021
-
-#### Pages _ to _
-
-### September 15th, 2021
-
-#### Pages _ to _
-
-### September 16th, 2021
-
-#### Pages _ to _
-
-### September 17th, 2021
-
-#### Pages _ to _
-
-### September 18th, 2021
-
-#### Pages _ to _
-
-### September 19th, 2021
-
-#### Pages _ to _
-
-### September 20th, 2021
-
-#### Pages _ to _
-
-### September 21st, 2021
-
-#### Pages _ to _
-
-### September 22nd, 2021
-
-#### Pages _ to _
-
-### September 23rd, 2021
-
-#### Pages _ to _
-
-### September 24th, 2021
-
-#### Pages _ to _
-
-### September 25th, 2021
-
-#### Pages _ to _
-
-### September 26th, 2021
-
-#### Pages _ to _
-
-### September 27th, 2021
-
-#### Pages _ to _
-
-### September 28th, 2021
-
-#### Pages _ to _
-
-### September 29th, 2021
-
-#### Pages _ to _
-
-### September 30th, 2021
-
-#### Pages _ to _
-
-### October 1st, 2021
-
-#### Pages _ to _
-
-### October 2nd, 2021
-
-#### Pages _ to _
-
-### October 3rd, 2021
-
-#### Pages _ to _
-
-### October 4th, 2021
-
-#### Pages _ to _
-
-### October 5th, 2021
-
-#### Pages _ to _
-
-### October 6th, 2021
-
-#### Pages _ to _
-
-### October 7th, 2021
-
-#### Pages _ to _
-
-### October 8th, 2021
-
-#### Pages _ to _
-
-### October 9th, 2021
-
-#### Pages _ to _
-
-### October 10th, 2021
-
-#### Pages _ to _
-
-### October 11th, 2021
-
-#### Pages _ to _
-
-### October 12th, 2021
-
-#### Pages _ to _
-
-### October 13th, 2021
-
-#### Pages _ to _
+### Reading 01 
+#### Introductory HTML and JavaScript
+### Reading 02 
+#### HTML Text, CSS Introduction, and Basic JavaScript Instructions
+### Reading 03 
+#### HTML Lists, CSS Boxes, JS Control Flow
+### Reading 04 
+#### HTML Links, CSS Layout, JS Functions
+### Reading 05 
+#### HTML Images; CSS Color & Text
+### Reading 06 
+#### JS Object Literals; The DOM
+### Reading 07 
+#### HTML Tables; JS Constructor Functions
+### Reading 08 
+#### More CSS Layout
+### Reading 09 
+#### Forms and Events
+### Reading 10 
+#### JS Debugging
+### Reading 11 
+#### Assorted Topics
+### Reading 12 
+#### Docs for the HTML \<canvas> Element & Chart.js
+### Reading 13 
+#### Local Storage
+### Reading 14A 
+#### CSS Transforms, Transitions, and Animations
+### Reading 14B 
+#### What Google Learned About Teams
