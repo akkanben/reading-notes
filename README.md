@@ -1,8 +1,4 @@
-# Code Fellows Reading Notes
-
-Reading notes from classes at Code Fellows
-
-## Code 102 Reading Notes
+# Code 102 Reading Notes
 
 I tested into Code 201 but below is a list of topics covered from Code 102:
 
@@ -17,7 +13,7 @@ I tested into Code 201 but below is a list of topics covered from Code 102:
 - Career Coaching
 - 201 Entrance Exam
 
-## Code 201 Reading Notes
+# Code 201 Reading Notes
 
 | Week One                                                                      | Week Two                                             | Week Three                                                     |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
