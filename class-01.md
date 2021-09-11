@@ -11,7 +11,7 @@ Browsers interpret plain text documents filled with HTML (HyperText Markup Langu
 HTML tags describe the structure of a webpage. Structural elements have both a opening tag and a closing tag. e.g. `<sometag>somecontent</sometag>` 
 
 
-- `<head>>` Comes before the body and is used to hold the title and meta data tags. Not visible in the main area of the webpage.
+- `<head>` Comes before the body and is used to hold the title and meta data tags. Not visible in the main area of the webpage.
 - `<title>` Defines the title of the webpage that is displayed in the browser tab.
 - `<body>` Everything here is shown in the main browser widow.
 - `<h1>` through `<h6>` Defines headings from the most important `<h1>` and decreasing in importance down to `<h6>`
@@ -21,17 +21,15 @@ Code excerpt from the book:
 
 ```html
 <html>
-	<body>
-		<h1>This is the Main Heading</h1>
-		<p>This text might be an introduction to the rest of the page. And if the page is a 
-			 long one it might be split up into several sub-headings.<p>
-		<h2>This is a Sub-Heading</h2>
-		<p>Many long articles have sub-headings so to help you follow the structure of what 
-			 is being written. There may even be sub-sub-headings (or lower-level headings).
-			 </p>
-		<h2>Another Sub-Heading</h2>
-		<p>Here you can see another sub-heading.</p>
-	</body>
+  <body>
+    <h1>This is the Main Heading</h1>
+    <p>This text might be an introduction to the rest of the page. And if the page is a long one it might be split up into several sub-headings.<p>
+    <h2>This is a Sub-Heading</h2>
+    <p>Many long articles have sub-headings so to help you follow the structure of what is being written. There may even be sub-sub-headings (or lower-level headings).
+    </p>
+    <h2>Another Sub-Heading</h2>
+    <p>Here you can see another sub-heading.</p>
+  </body>
 </html>
 ```
 
@@ -54,20 +52,20 @@ Code excerpt from the book:
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Comments in HTML</title>
-	</head>
-	<body>
-		<!-- start of introduction -->
-		<h1>Current Exhibitions</h1>
-		<h2>Olafur Eliasson</h2>
-		<!-- end of introduction -->
-		<!-- start of main text -->
-		<p>Olafur Eliasson was born in Copenhagen, Denmark in 1967 to Icelandic parents.</p>
-		<p>He is known for sculptures and large-scale installation art employing elemental materials such as light, water, and air temperature to enhance the viewer's experience.</p>
-		<!-- end of main text -->
-		<!-- <a href="mailto:info@example.org">Contact</a> -->
-	</body>
+  <head>
+    <title>Comments in HTML</title>
+  </head>
+  <body>
+    <!-- start of introduction -->
+    <h1>Current Exhibitions</h1>
+    <h2>Olafur Eliasson</h2>
+    <!-- end of introduction -->
+    <!-- start of main text -->
+    <p>Olafur Eliasson was born in Copenhagen, Denmark in 1967 to Icelandic parents.</p>
+    <p>He is known for sculptures and large-scale installation art employing elemental materials such as light, water, and air temperature to enhance the viewer's experience.</p>
+    <!-- end of main text -->
+    <!-- <a href="mailto:info@example.org">Contact</a> -->
+  </body>
 </html>
 ```
 
@@ -132,27 +130,26 @@ The `<meta>` tag is used in the document `<head>` and holds information about th
 Example :
 
 ```html
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Ben Mills" />
-    <meta name="description" content="Personal website of Ben Mills" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Ben Mills" />
+  <meta name="description" content="Personal website of Ben Mills" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Favicon: -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- End Favicon: -->
+  <!-- Favicon: -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- End Favicon: -->
 
-    <script defer src="../js/script.js"></script>
-    <link href="../css/style.css" rel="stylesheet" />
-    <title>ben's things</title>
-  </head>
-
+  <script defer src="../js/script.js"></script>
+  <link href="../css/style.css" rel="stylesheet" />
+  <title>ben's things</title>
+</head>
 ```
 
 #### Escape Characters

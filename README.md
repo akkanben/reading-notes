@@ -15,6 +15,11 @@ I tested into Code 201 but below is a list of topics covered from Code 102:
 
 # Code 201 Reading Notes
 
+Required Texts:
+
+1. *HTML & CSS Design and Build Websites* by Jon Duckett
+2. *JavaScript & JQuery Interactive front-end web development* by Jon Duckett
+
 | Week One                                                                      | Week Two                                             | Week Three                                                     |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
 | [Introductory HTML and JavaScript](class-01.md)                               | [JS Object Literals; The DOM](class-06.md)           | [Assorted Topics](class-11.md)                                 |
