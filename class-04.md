@@ -1,4 +1,4 @@
-# Reading Notes 02: HTML Link, JS Functions, and Intro to CSS Layout
+# Reading Notes 04: HTML Link, JS Functions, and Intro to CSS Layout
 
 ## Links
 
