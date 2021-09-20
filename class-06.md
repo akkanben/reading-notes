@@ -14,7 +14,7 @@ From [What's the Difference Between Primitive Values and object References?](htt
 
 Boolean, Null, Undefined, Number, BigInt, String, and Symbol are all JavaScript primitive types and are all immutable. Objects are the eighth data type and are mutable. Objects are also the underlying foundation for arrays, functions, and date types. 
 
-Immutable types can not be changed. There are functions like `String.slice(0, 8)` that seem to change but in truth they are just returning a new string and reassigning the new value. This is why `'myString[1]' = 'a'` results in an error, the string is immutable.
+Immutable types can not be changed. There are functions like `String.slice(0, 8)` that seem to change but in truth they are just returning a new string and reassigning the new value. This is why `myString[1] = 'a'` results in an error, the string is immutable.
 
 Objects, however can be changed and if you try to reassigning them like you might do to a string, you'll find that the original object is just referenced twice with both reflecting the latest change. `Object.assign()` can be used to create a new object when that is the desired functionality.
 
