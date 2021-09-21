@@ -4,7 +4,34 @@
 
 from [Domain Modeling (Code Fellows Git)](https://github.com/codefellows/domain_modeling#domain-modeling)
 
-A Domain model is tool for simulating a model for a problem with beavior and data.
+A Domain model is tool for simulating a model for a problem with behavior and data. 
+
+An example from the article using a function expression constructor and a method with the constructor functions prototype:
+```javascript
+var EpicFailVideo = function(epicRating, hasAnimals) {
+  this.epicRating = epicRating;
+  this.hasAnimals = hasAnimals;
+}
+EpicFailVideo.prototype.generateRandom = function(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+EpicFailVideo.prototype.dailyLikes = function() {
+  var viewers, percentage;
+  viewers = this.generateRandom(10, 30) * this.epicRating;
+  if (this.hasAnimals) {
+    percentage = 0.75;
+  } else {
+    percentage = 0.40;
+  }
+  return Math.round(viewers * percentage);
+}
+var parkourFail = new EpicFailVideo(7, false);
+var corgiFail = new EpicFailVideo(4, true);
+console.log(parkourFail.dailyLikes());
+console.log(corgiFail.dailyLikes());
+
+```
+Objects that share prototypes, share the same code and consume less memory. Even though it is slower to execute, it is considered a best practice.
 
 
 ## HTML Tables
@@ -27,7 +54,7 @@ myObject02.name = 'Thing Two';
 
 ```
 
-We can define a special contructor function to define a template to be used to instatiate more objects with the `new` keyword.
+We can define a special contractor function to define a template to be used to instantiate more objects with the `new` keyword.
 
 ```javascript
 // Constructor function
@@ -44,7 +71,7 @@ let hero01 = new Hero('Doug', 'Cleric', 10);
 let hero02 = new Hero('Jasmine', 'Warrior', 30);
 ```
 
-The `this` keyword has a different meaning depending on where it is declared. At the global scope it is in reference to the window object as in `this.innerWidth`. When `this` is used inside an object is referes the object itself.
+The `this` keyword has a different meaning depending on where it is declared. At the global scope it is in reference to the window object as in `this.innerWidth`. When `this` is used inside an object is reference the object itself.
 
 ### JavaScript Built-in Objects
 
@@ -61,7 +88,7 @@ Properties
 - `window.document`: Reference to current page.
 - `window.history`: Reference to viewed pages.
 - `window.history.length`: Number of history items.
-- `window.screen`: Refrerence to screen object (computer monitor).
+- `window.screen`: Reference to screen object (computer monitor).
 - `window.screen.width`: Screen (monitor) width.
 - `window.screen.height`: Screen (monitor) height
 
@@ -104,7 +131,7 @@ String Methods
 Number Methods
 - `isNaN()`
 - `toFixed()`: Rounds to specified decimal place.
-- `toPrecision()`: Rounds to specifed number of digits.
+- `toPrecision()`: Rounds to specified number of digits.
 - `toExponential()`: To scientific notation.
 
 Math Properties
