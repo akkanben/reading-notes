@@ -1,4 +1,4 @@
-#Reading Notes 10 - Debugging
+# Reading Notes 10 - Debugging
 
 
 ## Error Handling and Debugging
