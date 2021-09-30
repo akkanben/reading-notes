@@ -1,0 +1,3 @@
+Reading Notes #14 - What Google Learned About Teams
+
+This article in the NYT explains some of the steps that Google took to discover what makes a good team and why some teams preform better than others. The research of Project Aristotle discovered that psychological safety is a defining characteristic of a good team. In the article there is a quote from Amy Edmondson that defines Psychological safety is "a sense of confidence that the team will not embarrass, reject or punish someone for speaking up."Creating a set of norms and guidelines help make a psychologically safe zone for group members.
