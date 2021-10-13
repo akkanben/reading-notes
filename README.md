@@ -1,4 +1,8 @@
-# Code 102 Reading Notes
+# Reading Notes
+
+These are my reading notes during my time at [Code Fellows](https://www.codefellows.org/). I'm currently in Code 301.
+
+## Code 102 - Intro to Software Development
 
 I tested into Code 201 but below is a list of topics covered from Code 102:
 
@@ -13,7 +17,7 @@ I tested into Code 201 but below is a list of topics covered from Code 102:
 - Career Coaching
 - 201 Entrance Exam
 
-# Code 201 Reading Notes
+## Code 201 - Foundations of Software Development
 
 Required Texts:
 
@@ -27,3 +31,14 @@ Required Texts:
 | [HTML Lists, CSS Boxes, JS Control Flow](201/class-03.md)                         | [More CSS Layout](201/class-08.md)                       | [Local Storage](201/class-13.md)                                   |
 | [HTML Links, CSS Layout, JS Functions](201/class-04.md)                           | [Forms and Events](201/class-09.md)                      | [CSS Transforms, Transitions, and Animations](201/class-14a.md)    |
 | [HTML Images; CSS Color & Text](201/class-05.md)                                  | [JS Debugging](201/class-10.md)                          | [What Google Learned About Teams](201/class-14b.md)                |
+
+## Code 301 - Intermediate Software Development
+| Week One                                                                      | Week Two                                             | Week Three                                                     |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
+|[Introduction to React and Components](301/class-01.md)|[tbd](301/class-06.md)|[tbd](301/class-11.md)|
+|[tbd](301/class-02.md)|[tbd](301/class-07.md)|[tbd](301/class-12.md)|
+|[tbd](301/class-03.md)|[tbd](301/class-08.md)|[tbd](301/class-13.md)|
+|[tbd](301/class-04.md)|[tbd](301/class-09.md)|[tbd](301/class-14a.md)|
+|[tbd](301/class-05.md)|[tbd](301/class-10.md)|[tbd](301/class-14b.md)|
+
+## Code 401 - Advanced Software Development
