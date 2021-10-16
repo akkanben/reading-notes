@@ -33,8 +33,8 @@ Required Texts:
 | [HTML Images; CSS Color & Text](201/class-05.md)                                  | [JS Debugging](201/class-10.md)                          | [What Google Learned About Teams](201/class-14b.md)                |
 
 ## Code 301 - Intermediate Software Development
-| Week One                                                                      | Week Two                                             | Week Three                                                     |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
+| Week One  | Week Two | Week Three |
+| --- | --- | --- |
 |[Introduction to React and Components](301/class-01.md)|[NODE.JS](301/class-06.md)|[Mongo and Mongoose](301/class-11.md)|
 |[State and Props](301/class-02.md)|[REST](301/class-07.md)|[CRUD](301/class-12.md)|
 |[Passing Functions as Props](301/class-03.md)|[APIs](301/class-08.md)|[Diversity & Inclusion in the Tech Industry](301/class-13.md)|
