@@ -35,10 +35,10 @@ Required Texts:
 ## Code 301 - Intermediate Software Development
 | Week One                                                                      | Week Two                                             | Week Three                                                     |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
-|[Introduction to React and Components](301/class-01.md)|[tbd](301/class-06.md)|[tbd](301/class-11.md)|
-|[tbd](301/class-02.md)|[tbd](301/class-07.md)|[tbd](301/class-12.md)|
-|[tbd](301/class-03.md)|[tbd](301/class-08.md)|[tbd](301/class-13.md)|
-|[tbd](301/class-04.md)|[tbd](301/class-09.md)|[tbd](301/class-14a.md)|
-|[tbd](301/class-05.md)|[tbd](301/class-10.md)|[tbd](301/class-14b.md)|
+|[Introduction to React and Components](301/class-01.md)|[NODE.JS](301/class-06.md)|[Mongo and Mongoose](301/class-11.md)|
+|[State and Props](301/class-02.md)|[REST](301/class-07.md)|[CRUD](301/class-12.md)|
+|[Passing Functions as Props](301/class-03.md)|[APIs](301/class-08.md)|[Diversity & Inclusion in the Tech Industry](301/class-13.md)|
+|[React and Forms](301/class-04.md)|[FUNCTIONAL PROGRAMMING](301/class-09.md)|[Authentication](301/class-14.md)|
+|[Putting it all together](301/class-05.md)|[In memory storage](301/class-10.md)|[N/A](301/class-15.md)|
 
 ## Code 401 - Advanced Software Development
