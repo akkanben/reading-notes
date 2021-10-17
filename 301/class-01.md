@@ -38,13 +38,155 @@ React's `props` is used to pass properties from component to component. The data
 The `props` flow from top to bottom or parent to child, in one direction.
 
 
+Example using props from the article:
+
+```
+const ChildComponent = (props) => {  
+  return <p>{props.text}</p>; 
+};
+
+class ParentComponent extends Component {  
+  render() {
+    return (
+      <h1>
+        I'm the parent component.
+        <ChildComponent text={"I'm the 1st child"} />
+        <ChildComponent text={"I'm the 2nd child"} />
+        <ChildComponent text={"I'm the 3rd child"} />
+      </h1>
+    );
+  }
+}
+```
+
+
 ## Other Readings from React.js Documentation
 
-- [React Tutorial through ‘Passing Data Through Props’](https://reactjs.org/tutorial/tutorial.html)
-- [React Docs - Hello world](https://reactjs.org/docs/hello-world.html)
-- [React Docs - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [React Docs - Rendering elements](https://reactjs.org/docs/rendering-elements.html)
-- [React Docs - Components and props](https://reactjs.org/docs/components-and-props.html)
+### [React Tutorial through ‘Passing Data Through Props’](https://reactjs.org/tutorial/tutorial.html)
+
+### [React Docs - Hello world](https://reactjs.org/docs/hello-world.html)
+
+From the Docs:
+```js
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
+```
+
+### [React Docs - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+
+JSX looks like HTMl. JSX is used to describe elements. We can wrap any valid JavaScript inside curly braces. Multiline JSX should be wrapped in parenthesis to avoid automatic semicolon insertion.
+
+From the Docs:
+
+```js
+function formatName(user) {
+  return user.firstName + ' ' + user.lastName;
+}
+
+const user = {
+  firstName: 'Harper',
+  lastName: 'Perez'
+};
+
+const element = (
+  <h1>
+    Hello, {formatName(user)}!  </h1>
+);
+
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+
+### [React Docs - Rendering elements](https://reactjs.org/docs/rendering-elements.html)
+
+Using the `ReactDOM.render()` function we can render an element to an existing element on the DOM. React elements are immutable so they can not be changed but they can be replaced. React is also smart about how it updates the DOM, only updating the parts that are actually changing.
+
+Docs ticking-clock example only updates the date text each 1000ms:
+
+```js
+function tick() {
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root'));}
+
+setInterval(tick, 1000);
+```
+
+### [React Docs - Components and props](https://reactjs.org/docs/components-and-props.html)
+
+Separating components into smaller components can be a good strategy designing apps. It allows for sections of code to be better resued. This example below shows a before and after from the Reactjs docs of splitting up a component:
+
+Before:
+
+```js
+function Comment(props) {
+  return (
+    <div className="Comment">
+      <div className="UserInfo">
+        <img className="Avatar"
+          src={props.author.avatarUrl}
+          alt={props.author.name}
+        />
+        <div className="UserInfo-name">
+          {props.author.name}
+        </div>
+      </div>
+      <div className="Comment-text">
+        {props.text}
+      </div>
+      <div className="Comment-date">
+        {formatDate(props.date)}
+      </div>
+    </div>
+  );
+}
+```
+After:
+
+```js
+function Avatar(props) {
+  return (
+    <img className="Avatar"
+      src={props.user.avatarUrl}
+      alt={props.user.name}
+    />
+  );
+}
+
+function UserInfo(props) {
+  return (
+    <div className="UserInfo">
+      <Avatar user={props.user} />
+      <div className="UserInfo-name">
+        {props.user.name}
+      </div>
+    </div>
+  );
+}
+
+function Comment(props) {
+  return (
+    <div className="Comment">
+      <UserInfo user={props.author} />
+      <div className="Comment-text">
+        {props.text}
+      </div>
+      <div className="Comment-date">
+        {formatDate(props.date)}
+      </div>
+    </div>
+  );
+}
+
+```
 
 ## Things I want to know more about
 
