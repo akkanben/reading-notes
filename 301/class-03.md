@@ -27,7 +27,7 @@ From the [Coding at Dawn Medium article](https://medium.com/coding-at-dawn/how-t
   - Allows you to spread out an array into the arguments of a function.
   - Concatenate two arrays or copy an array's contents.
   - Combining objects.
-  - Splitting strings into individual charactors as elements of an array.
+  - Splitting strings into individual characters as elements of an array.
 3. Give an example of using the spread operator to combine two arrays.
 ```javascript
 const alpha = ['a', 'b', 'c'];
@@ -45,7 +45,7 @@ const moreVeg = {lettuceHeadCount: 1};
 const salad = {...veg, ...moreVeg} // {tomatoCount: 1, cucumberCount: 2, lettuceHeadCount: 1} 
 ```
 
-## How to Pass Functions Betwen Components
+## How to Pass Functions Between Components
 
 From the [Steve Griffith YouTube video](https://www.youtube.com/watch?v=c05OL7XbwXU)
 
@@ -54,7 +54,7 @@ From the [Steve Griffith YouTube video](https://www.youtube.com/watch?v=c05OL7Xb
 1. In the video, what is the first step that the developer does to pass functions between components?
   - The developer creates a method in the App class that will be then passed to the child Person class.
 2. In your own words, what does the increment function do?
-  - The increment method in the Person class adds a yellow span to the card and calls the App class increment method which filters out the current name and increments it's corrosponding count. 
+  - The increment method in the Person class adds a yellow span to the card and calls the App class increment method which filters out the current name and increments it's corresponding count. 
 3. How can you pass a method from a parent component into a child component?
   -  As a property in the React component just like passing any other property via props.
 4. How does the child component invoke a method that was passed to it from a parent component?
@@ -64,3 +64,9 @@ From the [Steve Griffith YouTube video](https://www.youtube.com/watch?v=c05OL7Xb
 
 - [React Tutorial through ‘Declaring a Winner’](https://reactjs.org/tutorial/tutorial.html)
 - [React Docs - Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+
+## Things I Want To Know More About
+
+- How to design and plan out React Apps
+- How the syntactically identical Rest parameters are used.
+- If/when `Array.prototype` methods like `concat()` are better suited over the spread operator.
