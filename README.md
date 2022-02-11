@@ -43,3 +43,30 @@ Required Texts:
 |[Putting it all together](301/class-05.md)|[In memory storage](301/class-10.md)|[N/A](301/class-15.md)|
 
 ## Code 401 - Advanced Software Development
+
+Prework [Prep Your Mindset](401/class-00a.md) & [The Command Line](401/class-00b.md)
+
+| Week One  | Week Two | Week Three |
+| --- | --- | --- |
+|[Java Basics](401/class-01.md)|[Inheritance and Interfaces](401/class-06.md)|[Spring](401/class-11.md)|
+|[Arrays, Loops, Imports](401/class-02.md)|[Inheritance, Day 2](401/class-07.md)|[Spring RESTful Routing and Static Files](401/class-12.md)|
+|[Maps, primitives, File I/O](401/class-03.md)|[OO Desgn](401/class-08.md)|[Related Resources and Integration Testing](401/class-13.md)|
+|[OOP](401/class-04.md)|[WRRC and Java](401/class-09.md)| --- |
+|[Linked Lists](401/class-05.md)|[Stacks and Queues](401/class-10.md)|[Trees](401/class-15.md)|
+
+| Week Four | Week Five | Week Six|
+| --- | --- | --- |
+|[Spring Authentication](401/class-16.md)| --- |[Android Fundamentals](401/class-26.md)|
+|[Spring Authorization](401/class-17.md)| --- |[Intents, Activities, and SharedPreferences](401/class-27.md)|
+|[Web App Security](401/class-18.md)| --- |[RecyclerView](401/class-28.md)|
+|[Spring and Sockets](401/class-19.md)| --- |[Room](401/class-29.md)|
+| ---               | --- |[Hash Tables](401/class-30.md)|
+
+| Week Seven | Week Eight | Week Nine|
+| --- | --- | --- |
+|[Espresso](401/class-31.md)|[Cognito](401/class-36.md)|[Intent Filters](401/class-41.md)|
+|[Serverless and Amplify](401/class-32.md)|[S3](401/class-37.md)|[Location](401/class-42.md)|
+|[GraphQL @connection](401/class-33.md)|[Notifications](401/class-38.md)|[OSS Contributions](401/class-43.md)|
+|[Monetization](401/class-34.md)|[Kinesis](401/class-39.md)| ---|
+|[Graphs](401/class-35.md)| ---               | ---                |
+
