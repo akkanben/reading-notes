@@ -44,7 +44,7 @@ Required Texts:
 
 ## Code 401 - Advanced Software Development
 
-Prework [Prep Your Mindset](401/class-00a.md) & [The Command Line](401/class-00b.md)
+Prework [Prep Your Mindset](401/class-00a.md) & [The Command Line](401/class-00b.md) & [SQL](401/class-00c.md)
 
 | Week One  | Week Two | Week Three |
 | --- | --- | --- |
