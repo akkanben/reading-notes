@@ -51,7 +51,7 @@ Prework [Prep Your Mindset](401/class-00a.md) & [The Command Line](401/class-00b
 |[Java Basics](401/class-01.md)|[Inheritance and Interfaces](401/class-06.md)|[Spring](401/class-11.md)|
 |[Arrays, Loops, Imports](401/class-02.md)|[Inheritance, Day 2](401/class-07.md)|[Spring RESTful Routing and Static Files](401/class-12.md)|
 |[Maps, primitives, File I/O](401/class-03.md)|[OO Desgn](401/class-08.md)|[Related Resources and Integration Testing](401/class-13.md)|
-|[OOP](401/class-04.md)|[WRRC and Java](401/class-09.md)| --- |
+|[OOP](401/class-04.md)|[WRRC and Java](401/class-09.md)|[BCrypt](401/class-14.md)|
 |[Linked Lists](401/class-05.md)|[Stacks and Queues](401/class-10.md)|[Trees](401/class-15.md)|
 
 | Week Four | Week Five | Week Six|
