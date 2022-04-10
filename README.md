@@ -64,7 +64,7 @@ Prework [Prep Your Mindset](401/class-00a.md) & [The Command Line](401/class-00b
 
 | Week Seven | Week Eight | Week Nine|
 | --- | --- | --- |
-|[Espresso](401/class-31.md)|[Cognito](401/class-36.md)|[Intent Filters](401/class-41.md)|
+|[Espresso](401/class-31.md)|[Cognito](401/class-36.md)|[Analytics and TTS](401/class-41.md)|
 |[Serverless and Amplify](401/class-32.md)|[S3](401/class-37.md)|[Location](401/class-42.md)|
 |[GraphQL @connection](401/class-33.md)|[Intent Filters](401/class-38.md)|[OSS Contributions](401/class-43.md)|
 |[Monetization](401/class-34.md)|[Location](401/class-39.md)| ---|
